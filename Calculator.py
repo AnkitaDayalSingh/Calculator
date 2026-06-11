@@ -8,9 +8,9 @@ if op == '+':
     result = x + y
 elif op == "-":
     result = x - y
-elif op == "*":
+elif op in ["*", "×"]:
     result = x * y
-elif op == "/":
+elif op in ["/", "÷"]:
     if y == 0:
         result = "Can not divide by zero"
     else:
