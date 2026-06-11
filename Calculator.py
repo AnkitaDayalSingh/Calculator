@@ -12,8 +12,10 @@ def operation(x, y, op):
             result = "Can not divide by zero"
         else:
             result = x / y
+    elif op in ["^","**"]:
+        result = x**y
     else:
-        result = "invalid operator"
+        result = "Invalid Operator"
     return result
 
 while True:
